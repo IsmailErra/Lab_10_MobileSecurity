@@ -1,8 +1,7 @@
 # Lab_10_MobileSecurity
-# Rapport de Laboratoire : Déploiement et Instrumentation avec Frida (Lab 10)
 
-## 1. Objectif du Laboratoire
-Ce laboratoire a pour objectif principal de mettre en place un environnement d'analyse dynamique d'applications mobiles à l'aide du framework d'instrumentation **Frida**. Les activités visent à installer l'agent Frida sur un émulateur Android, à valider la communication entre l'hôte et le périphérique, et à réaliser une première injection de code JavaScript dans un processus en cours d'exécution.
+## 1. Objectif du Lab
+Ce lab a pour objectif principal de mettre en place un environnement d'analyse dynamique d'applications mobiles à l'aide du framework d'instrumentation **Frida**. Les activités visent à installer l'agent Frida sur un émulateur Android, à valider la communication entre l'hôte et le périphérique, et à réaliser une première injection de code JavaScript dans un processus en cours d'exécution.
 
 ## 2. Contexte Technique
 L'analyse dynamique est une étape cruciale de la sécurité des applications mobiles. L'utilisation de Frida, fonctionnant sur une architecture Client-Serveur, permet d'interagir avec le runtime de l'application (Java et Natif), d'intercepter des appels systèmes, et de manipuler le comportement de l'application à la volée.
